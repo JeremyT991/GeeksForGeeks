@@ -1,0 +1,48 @@
+Rachael is a brilliant girl and loves to play with strings. She challenges everyone to beat her in string challenges and is still unbeaten. She has created a challenge based on lower-case alphabets and challenges you to beat her if you can.
+
+String Challenge:
+
+Provided a string of lower-case alphabets of length N, list all the distinct substrings possible in the similar manner as in a dictionary (indexing is 1 based).  Q number of queries needs to be answered where each query is represented by a number K. The answer of a query will be the number of characters (distinct) present in the substring present at  the Kth index in the list. For the query where the value of k is greater than the number of substrings (distinct) possible in the string, answer of the query will be -1.
+
+Input:
+
+First line of the input consist of an integer T denoting the number of test cases.Each test case consists of Q+2 number of lines, where Q is number of queries asked. First line of each test case consists of two space separated integers N(length of string) and Q( Number of Queries). Second line of each test case consist of an input string. Next Q lines of each test case consists of a number K.
+
+Output:
+
+Corresponding to each test case, print the answer to each query in a new line.
+
+Constraints:
+
+1 <= T <= 100
+1 <= N , Q <= 100000
+1 <= K <= 1000000000000000000 ( 1e18 )
+
+Example:
+
+Input:
+
+1
+3 6
+gfg
+1
+2
+3
+4
+5
+6
+
+
+Sample Output:
+
+1
+2
+1
+2
+2
+-1
+
+
+Explanation:
+
+List of distinct substrings possible: { f , fg , g , gf , gfg }
